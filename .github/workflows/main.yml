@@ -10,14 +10,16 @@ jobs:
       run: brew install cloc
 
     - name: git clone
-      run: python stats.py ${{ github.actor }} ${{ secrets.ACCESS_TOKEN }}
+      run: python main.py ${{ github.actor }} ${{ secrets.ACCESS_TOKEN }}
 
-    - name: generate img
-      run: python create_lang_img.py
+    - name: generate imgs
+      run: |
+        python create_lang_img.py
+        python create_overview_img.py ${{ github.actor }}
 
-    - name: push img
+    - name: push imgs
       run: |
         git config --global user.name bot
-        git add languages.svg
-        git commit -m 'Bot update' || echo
+        git add languages.svg overview.svg
+        git commit -m 'update' || echo
         git push

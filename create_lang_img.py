@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 import json
-import params
+from params import EXCLUDED
 
 
-excluded = params.EXCLUDED
-excluded = excluded.split(";")
+EXCLUDED = EXCLUDED.split(";")
 
 lang_file = open("everything.lang").readlines()
 langs = []
@@ -15,7 +14,7 @@ for line in lang_file[4:]:
         break
 
     lang_name = line[:25].strip()
-    if lang_name in excluded:
+    if lang_name in EXCLUDED:
         continue
 
     line = line[25:].split()
