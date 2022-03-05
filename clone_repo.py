@@ -8,7 +8,7 @@ def clone(username, token, repos):
     file_names = []
 
     for repo in repos:
-        repo_name = repo['name']
+        repo_name = repo.split("/")[-1]
         file_names.append(repo_name + ".txt")
 
         repo_url = f"https://{username}:{token}@github.com/" \
