@@ -1,0 +1,23 @@
+name: refresh stats
+on: [push, workflow_dispatch]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: install cloc
+      run: brew install cloc
+
+    - name: git clone
+      run: python stats.py ${{ github.actor }} ${{ secrets.ACCESS_TOKEN }}
+
+    - name: generate img
+      run: python create_lang_img.py
+
+    - name: push img
+      run: |
+        git config --global user.name bot
+        git add languages.svg
+        git commit -m 'Bot update' || echo
+        git push
