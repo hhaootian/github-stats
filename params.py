@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-EXCLUDED = "CSV"
+EXCLUDED = "CSV;JSON;SVG"
 
 QUERY = """
 query {
