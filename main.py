@@ -8,7 +8,9 @@ from clone_repo import clone
 
 
 username = sys.argv[1]
-token = sys.argv[2]
+token = os.getenv("ACCESS_TOKEN")
+secret_repo_url = os.getenv("REPO")
+secret_repo_url = secret_repo_url.split(";")
 
 headers = {"Authorization": f"bearer {token}"}
 
@@ -36,4 +38,4 @@ prr = data['contributionsCollection']['totalPullRequestReviewContributions']
 for data in [stars, repos, commit, issue, pr, prr]:
     os.system(f"echo {data} >> stats.txt")
 
-clone(username, token, repo_urls)
+clone(username, token, repo_urls + secret_repo_url)
