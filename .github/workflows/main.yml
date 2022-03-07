@@ -11,6 +11,9 @@ jobs:
 
     - name: git clone
       run: python main.py ${{ github.actor }}
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        REPO: ${{ secrets.REPO }}
 
     - name: generate imgs
       run: |
