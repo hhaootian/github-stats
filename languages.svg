@@ -88,11 +88,11 @@ div.ellipsis {
 <foreignObject x="21" y="17" width="318" height="176">
 <div xmlns="http://www.w3.org/1999/xhtml" class="ellipsis">
 
-<h2>Languages Used (14.4K Lines of Code)</h2>
+<h2>Languages Used (14.5K Lines of Code)</h2>
 
 <div>
 <span class="progress">
-<span style="background-color: #3572A5;width: 38.234%;" class="progress-item"></span><span style="background-color: #563d7c;width: 19.388%;" class="progress-item"></span><span style="background-color: #c6538c;width: 14.833%;" class="progress-item"></span><span style="background-color: #b07219;width: 7.197%;" class="progress-item"></span><span style="background-color: #f1e05a;width: 6.592%;" class="progress-item"></span><span style="background-color: #083fa1;width: 3.519%;" class="progress-item"></span><span style="background-color: #000000;width: 3.115%;" class="progress-item"></span><span style="background-color: #f34b7d;width: 2.837%;" class="progress-item"></span><span style="background-color: #2b7489;width: 2.441%;" class="progress-item"></span><span style="background-color: #e34c26;width: 1.843%;" class="progress-item"></span></span>
+<span style="background-color: #3572A5;width: 37.952%;" class="progress-item"></span><span style="background-color: #563d7c;width: 19.238%;" class="progress-item"></span><span style="background-color: #c6538c;width: 14.718%;" class="progress-item"></span><span style="background-color: #b07219;width: 7.142%;" class="progress-item"></span><span style="background-color: #f1e05a;width: 6.542%;" class="progress-item"></span><span style="background-color: #f34b7d;width: 3.574%;" class="progress-item"></span><span style="background-color: #083fa1;width: 3.492%;" class="progress-item"></span><span style="background-color: #000000;width: 3.091%;" class="progress-item"></span><span style="background-color: #2b7489;width: 2.422%;" class="progress-item"></span><span style="background-color: #e34c26;width: 1.829%;" class="progress-item"></span></span>
 </div>
 <ul>
 
@@ -101,7 +101,7 @@ div.ellipsis {
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">Python</span>
-<span class="percent">38.23%</span>
+<span class="percent">37.95%</span>
 </li>
 
 <li style="animation-delay: 150ms;">
@@ -109,7 +109,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">CSS</span>
-<span class="percent">19.39%</span>
+<span class="percent">19.24%</span>
 </li>
 
 <li style="animation-delay: 300ms;">
@@ -117,7 +117,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">SCSS</span>
-<span class="percent">14.83%</span>
+<span class="percent">14.72%</span>
 </li>
 
 <li style="animation-delay: 450ms;">
@@ -125,7 +125,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">Java</span>
-<span class="percent">7.20%</span>
+<span class="percent">7.14%</span>
 </li>
 
 <li style="animation-delay: 600ms;">
@@ -133,31 +133,31 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">JavaScript</span>
-<span class="percent">6.59%</span>
+<span class="percent">6.54%</span>
 </li>
 
 <li style="animation-delay: 750ms;">
-<svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#083fa1;"
-viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
-fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
-<span class="lang">Markdown</span>
-<span class="percent">3.52%</span>
-</li>
-
-<li style="animation-delay: 900ms;">
-<svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#000000;"
-viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
-fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
-<span class="lang">JSX</span>
-<span class="percent">3.12%</span>
-</li>
-
-<li style="animation-delay: 1050ms;">
 <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#f34b7d;"
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">C++</span>
-<span class="percent">2.84%</span>
+<span class="percent">3.57%</span>
+</li>
+
+<li style="animation-delay: 900ms;">
+<svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#083fa1;"
+viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
+fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
+<span class="lang">Markdown</span>
+<span class="percent">3.49%</span>
+</li>
+
+<li style="animation-delay: 1050ms;">
+<svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#000000;"
+viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
+fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
+<span class="lang">JSX</span>
+<span class="percent">3.09%</span>
 </li>
 
 <li style="animation-delay: 1200ms;">
@@ -165,7 +165,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">TypeScript</span>
-<span class="percent">2.44%</span>
+<span class="percent">2.42%</span>
 </li>
 
 <li style="animation-delay: 1350ms;">
@@ -173,7 +173,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">HTML</span>
-<span class="percent">1.84%</span>
+<span class="percent">1.83%</span>
 </li>
 </ul>
 </div>
